@@ -3,10 +3,11 @@ package operation;
 import java.sql.Date;
 import java.util.HashMap;
 
-import org.apache.poi.hssf.usermodel.HSSFWorkbook;
-import org.apache.poi.ss.formula.functions.T;
+import org.apache.poi.ss.usermodel.Cell;
+import org.apache.poi.ss.usermodel.CellType;
 import org.apache.poi.ss.usermodel.Sheet;
 import org.apache.poi.ss.usermodel.Workbook;
+import org.apache.poi.ss.util.CellRangeAddress;
 import org.apache.poi.xssf.usermodel.XSSFWorkbook;
 
 public class CreateExcel {
@@ -33,6 +34,13 @@ public class CreateExcel {
 		for (Sheet sheet : wb ) {
 			 map.put(1, sheet);
 		 }
+	}
+	
+	private void test2() {
+//		Cell.CELL_TYPE_BLANK;
+//		CellType.BLANK.getCode();
+		// 行番号が1から4、列番号が1から6までの長方形の領域を結合
+		sheet1.addMergedRegion(new CellRangeAddress(1, 4, 1, 6));
 	}
 	
 	
