@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/poi-3.17.jar"/>
+	<classpathentry kind="lib" path="lib/poi-examples-3.17.jar"/>
+	<classpathentry kind="lib" path="lib/poi-excelant-3.17.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-3.17.jar" sourcepath="/var/folders/3_/23949mcn4bg61c_ryktlwgh40000gn/T/.org.sf.feeling.decompiler1509258394539/source/poi-ooxml-3.17-sources.jar"/>
+	<classpathentry kind="lib" path="lib/poi-ooxml-schemas-3.17.jar"/>
+	<classpathentry kind="lib" path="lib/poi-scratchpad-3.17.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
